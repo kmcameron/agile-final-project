@@ -7,9 +7,9 @@ assignees: ''
 
 ---
 
-**As a** [role]  
- **I need** [function]  
- **So that** [benefit]  
+**As a** system administrator  
+ **I need** to be able to remove an item from the catalog  
+ **So that** I can effectively manage the catalog with products on hand.
    
  ### Details and Assumptions
  * [document what you know]
@@ -17,7 +17,7 @@ assignees: ''
  ### Acceptance Criteria  
    
  ```gherkin
- Given [some context]
- When [certain action is taken]
- Then [the outcome of action is observed]
+ Given the catalog is created with at least 1 item in it
+ When I delete an item
+ Then it no longer shows in the catalog.
  ```
